@@ -1,0 +1,42 @@
+#nav{
+    display:flex;
+    background-color: black;
+    height: 8%;
+    color:white;
+    justify-content: center;
+}
+
+input{
+    padding:1%;
+    margin:10px;
+    border-style: 3px solid red;
+}
+
+button{
+    height:auto;
+    width:auto;
+    padding:5px;
+    margin:5px;
+}
+
+.singleCard {
+    /* flex-basis: 200px; */
+    flex-grow: 1;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width:150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #all-players-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+#search{
+    width:100px;
+}
